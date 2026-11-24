@@ -16,24 +16,12 @@ const NFL26 = {
     'off_pass_epa_per_dropback','def_pass_epa_per_dropback_allowed',
     'off_rush_epa_per_rush','def_rush_epa_per_rush_allowed',
     'off_explosive_pass_rate','def_explosive_pass_rate_allowed',
-    'off_explosive_rush_rate','def_rush_epa_per_rush_allowed',
     'off_explosive_rush_rate','def_explosive_rush_rate_allowed',
     'off_sack_rate_allowed','def_sack_rate_generated','off_cpoe','def_cpoe_allowed',
     'off_first_down_rate','def_first_down_rate_allowed'
   ],
   aliases: { WASH:'WAS', WSH:'WAS', JAC:'JAX', LA:'LAR', STL:'LAR', SD:'LAC', OAK:'LV' }
 };
-// Replace the column specification above with the exact 26-column stage header.
-NFL26.columns = [
-  'season','week','game_id','game_date','team','opponent','side','plays',
-  'off_epa_per_play','def_epa_per_play_allowed','off_success_rate','def_success_rate_allowed',
-  'off_pass_epa_per_dropback','def_pass_epa_per_dropback_allowed',
-  'off_rush_epa_per_rush','def_rush_epa_per_rush_allowed',
-  'off_explosive_pass_rate','def_explosive_pass_rate_allowed',
-  'off_explosive_rush_rate','def_explosive_rush_rate_allowed',
-  'off_sack_rate_allowed','def_sack_rate_generated','off_cpoe','def_cpoe_allowed',
-  'off_first_down_rate','def_first_down_rate_allowed'
-];
 
 function NFL26_team_(x) {
   const s = String(x || '').trim().toUpperCase();
