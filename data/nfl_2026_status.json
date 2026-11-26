@@ -1,7 +1,7 @@
 {
   "season": 2026,
   "source": "https://github.com/nflverse/nflverse-data/releases/download/pbp/play_by_play_2026.csv.gz",
-  "generated_at_utc": "2026-11-26T12:12:44.348381+00:00",
+  "generated_at_utc": "2026-11-26T17:18:38.828321+00:00",
   "team_rows": 328,
   "games": 164,
   "latest_game_date": "2026-11-25"
